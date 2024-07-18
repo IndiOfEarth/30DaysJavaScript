@@ -11,3 +11,12 @@ var createHelloWorld = function () {
     // Arrow Syntax + rest arguments
     return (...args) => ""
 };
+
+
+// Each time the f() is called after the initialisation of f, 
+// the function is returned.
+
+/**
+ * const f = createHelloWorld();
+ * f(); // "Hello World"
+ */
