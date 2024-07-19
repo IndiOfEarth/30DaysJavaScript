@@ -1,4 +1,5 @@
-// returning a function inside of a function
+// Write a function createHelloWorld. It should return a new function that always returns "Hello World".
+
 var createHelloWorld = function () {
     // Function Syntax
     return function () {
